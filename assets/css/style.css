@@ -1,0 +1,59 @@
+body {
+    padding-top: 56px;
+    background-color: #f8f9fa;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-header {
+    font-weight: 500;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}
+
+.badge {
+    font-size: 0.9em;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.list-group-item {
+    padding: 0.75rem 1.25rem;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+    }
+}
+
+/* Style pour les cartes de projet */
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style pour les formulaires */
+.form-control, .form-select {
+    margin-bottom: 10px;
+}
+
+/* Style pour les boutons */
+.btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
